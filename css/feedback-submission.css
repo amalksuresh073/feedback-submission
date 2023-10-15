@@ -1,0 +1,90 @@
+/* Set the form width to 100% of its container */
+#feedback-form {
+    width: 100%;
+    max-width: 800px; /* Optional: Limit the maximum width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Add spacing between form elements */
+#houzeo-feedback-form input,
+#houzeo-feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+#houzeo-feedback-form input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style the error message */
+#feedback-message {
+  padding:1rem;
+    color: #6c2222; /* Red color for error messages */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/* Make the feedback list full width */
+#feedback-list {
+    width: 100%;
+    max-width: 800px; /* Optional: Limit the maximum width of the table */
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+/* Style the table */
+#feedback-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table headers */
+#feedback-list table th {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style table rows */
+#feedback-list table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style table data cells */
+#feedback-list table td {
+    padding: 10px;
+}
+
+/* Hover effect for rows */
+#feedback-list table tr:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+#feedback-message{
+  padding:1rem;
+}
+.err_cls{
+  border: 2px solid red;
+}
+.sucess_cls
+{
+  border: 2px solid green;
+  padding: 1rem;
+}
+.hide_table{
+  display: none;
+}
